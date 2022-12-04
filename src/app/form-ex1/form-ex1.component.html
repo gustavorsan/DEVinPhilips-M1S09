@@ -39,7 +39,30 @@
       </div>
     </fieldset>
     <div class="col-12">
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="button" class="btn btn-primary" (click)="openPopup()">Enviar</button>
     </div>
   </form>
+<div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sucesso</h4>
+      </div>
+      <div class="modal-body">
+        <p>Formulário enviado com sucesso</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" 
+                (click)="closePopup()">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+
+
 </div>
