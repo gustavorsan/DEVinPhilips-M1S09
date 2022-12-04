@@ -1,27 +1,26 @@
-# DEVinPhilipsM1S09
+# HelloAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Esse projeto foi criado utilizando a [Angular CLI](https://github.com/angular/angular-cli) versão 15.0.1
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias
+  * Angular CLI 15.0.1
+  * Bootstrap 5.0.2
+  * Node.js 16.13.1
 
-## Build
+## Como instalar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ 1. Baixe ou clone este repositório usando `git clone https://github.com/gustavorsan/DEVinPhilips-M1S08ExAngular.git`; 
+ 2. Dentro do diretório, instale as dependências usando `npm install`.
 
-## Running unit tests
+## Como executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute o comando `npm start` dentro do diretório, a aplicação seve ser acessada através do endereço `http://localhost:4200/`.
 
-## Running end-to-end tests
+## Como compilar/construir
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute `ng build` para buildar o projeto. Para buildar a versão de produção adicione a flag `--prod`. Os arquivos serão armazenados do diretório `dist`.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

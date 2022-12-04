@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./form-ex1.component.css']
 })
 export class FormEx1Component {
-
+  displayStyle = "none";
+  
+  openPopup() {
+    this.displayStyle = "block";
+  }
+  closePopup() {
+    this.displayStyle = "none";
+  }
 }
