@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { FormEx7Component } from './form-ex7/form-ex7.component';
+import { InputEx08Component } from './input-ex08/input-ex08.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -16,6 +18,8 @@ import { FormEx7Component } from './form-ex7/form-ex7.component';
     NavbarComponent,
     CardComponent,
     FormEx7Component,
+    InputEx08Component,
+    HomeComponent,
     
   ],
   imports: [
